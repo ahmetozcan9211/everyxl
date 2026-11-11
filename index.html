@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>EveryXL</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+var L=["en", "tr", "ru", "de", "it", "fr"],p=(navigator.languages||[navigator.language||"en"]).map(function(x){return x.slice(0,2).toLowerCase()});
+var l=p.find(function(x){return L.indexOf(x)>=0})||"en";location.replace(l+"/"+(location.hash.slice(1)||"index")+".html");
+</script><noscript><meta http-equiv="refresh" content="0; url=en/index.html"></noscript></head>
+<body><a href="en/index.html">EveryXL</a></body></html>
